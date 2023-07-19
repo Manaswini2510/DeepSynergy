@@ -13,15 +13,16 @@ inputs.forEach((eachElement)=>{
         if(event.target.value === ""){
             const elementId = event.target.id
             const getErrorElement = document.getElementById("para" + elementId)
-            getErrorElement.textContent = "required"
+            getErrorElement.textContent = "Please complete this required field"
+            getErrorElement.style.color= "red"
         }
     })
     eachElement.addEventListener("input", (event)=>{
         const elementId = event.target.id
         const getErrorElement = document.getElementById("para" + elementId)
-        getErrorElement.value = "required"
         if(event.target.value === ""){
-            getErrorElement.textContent = "Required"
+            getErrorElement.textContent = "Please complete this required field"
+            getErrorElement.style.color= "red"
         }else{
             getErrorElement.textContent = ""
         }
