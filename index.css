@@ -3,7 +3,6 @@
 }
 .bg{
     background-color: #F2FBFA;
-    height: 100vh;
     text-align: center;
     padding: 30px;
 }
@@ -49,7 +48,14 @@
     border-width: 0px;
     border-radius: 5px;
     margin-top: 20px;
+    background-color: #03DAC5;
 }
 .star{
     color: red;
+}
+.input-div-large{
+    text-align: left;
+    margin-left: 14%;
+    margin-right: 15%;
+    margin-bottom: 20px;
 }
